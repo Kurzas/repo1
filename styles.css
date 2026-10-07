@@ -111,3 +111,8 @@ footer {
   font-size: 0.875rem;
   text-align: center;
 }
+
+#about {
+  padding-bottom: 64px;
+  text-align: center;
+}
