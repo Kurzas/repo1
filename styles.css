@@ -7,6 +7,25 @@
   --border: #e4e7eb;
 }
 
+:root[data-theme="dark"] {
+  --bg: #111827;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #60a5fa;
+  --surface: #1f2937;
+  --border: #374151;
+}
+
+#theme-toggle {
+  margin-left: 1.5rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
